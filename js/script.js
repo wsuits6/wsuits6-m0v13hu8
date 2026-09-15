@@ -21,7 +21,8 @@ const watchlistGrid = document.getElementById("watchlistGrid");
 const watchlistEmptyMessage = document.getElementById("watchlistEmpty");
 
 //Variables for API Key and BASE URL
-const apikey = "16752cf9";
+// Replace with your own OMDb API key (https://www.omdbapi.com/apikey.aspx)
+const apikey = "YOUR_OMDB_API_KEY";
 const baseurl = "https://www.omdbapi.com/?apikey=" + apikey;
 
 //Watchlist Array
